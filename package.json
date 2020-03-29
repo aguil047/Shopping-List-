@@ -1,0 +1,29 @@
+{
+  "name": "shoppinglist",
+  "version": "1.0.0",
+  "description": "Shopping list build with MERN stack",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js", 
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aguil047/Shopping-List-.git"
+  },
+  "author": "Arturo Guillen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aguil047/Shopping-List-/issues"
+  },
+  "homepage": "https://github.com/aguil047/Shopping-List-#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.1.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
